@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cross-species-aging-resource"
+version = "0.1.0"
+description = "Reproducibility package for cross-species immune ageing DANN models."
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+license = {file = "LICENSE.md"}
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+  "jupyter",
+  "nbconvert",
+  "nbformat",
+  "ipykernel",
+  "tensorflow>=2.11,<2.16",
+  "keras",
+  "scanpy>=1.10",
+  "anndata",
+  "umap-learn",
+  "polars",
+  "hyperopt",
+  "captum",
+  "torch",
+  "tf2onnx",
+  "onnx",
+  "onnx2pytorch",
+  "statsmodels",
+  "matplotlib-venn",
+]
+
+[tool.setuptools]
+py-modules = []

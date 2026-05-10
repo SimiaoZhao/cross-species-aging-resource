@@ -1,0 +1,33 @@
+name: cross-species-aging
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - nbconvert
+  - nbformat
+  - ipykernel
+  - pip:
+      - tensorflow>=2.11,<2.16
+      - keras
+      - scanpy>=1.10
+      - anndata
+      - umap-learn
+      - polars
+      - hyperopt
+      - captum
+      - torch
+      - tf2onnx
+      - onnx
+      - onnx2pytorch
+      - statsmodels
+      - matplotlib-venn
+

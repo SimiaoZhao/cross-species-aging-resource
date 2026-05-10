@@ -1,0 +1,36 @@
+# Data and model artifacts
+data/raw/
+data/processed/
+models/
+!models/
+models/*
+!models/README.md
+results/
+repro_runs/
+output/
+logs/
+drafts/
+
+# Generated intermediate files from notebooks
+*.h5ad
+*.h5
+*.npz
+*.npy
+*.pkl
+*.keras
+*.onnx
+featurestemp*.txt
+onehot_encoder.txt
+sorted_feature_names.txt
+predict_celltypes*.csv
+*_predictage.csv
+
+# Python/Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+vendor/
+
+# OS/editor
+.DS_Store
+Thumbs.db

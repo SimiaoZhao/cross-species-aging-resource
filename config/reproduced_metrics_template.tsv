@@ -1,0 +1,29 @@
+analysis	metric	observed	run_id	notes
+HSC_scRNA_DANN	human_test_AUROC			
+HSC_scRNA_DANN	balanced_accuracy			
+HSC_scRNA_DANN	F1			
+HSC_scRNA_DANN	sensitivity			
+HSC_scRNA_DANN	specificity			
+HSC_scATAC_DANN	human_test_AUROC			
+HSC_scATAC_DANN	balanced_accuracy			
+HSC_scATAC_DANN	F1			
+HSC_scATAC_DANN	sensitivity			
+HSC_scATAC_DANN	specificity			
+CD8_scRNA_DANN	human_test_AUROC			
+CD8_scRNA_DANN	balanced_accuracy			
+CD8_scRNA_DANN	F1			
+CD8_scRNA_DANN	sensitivity			
+CD8_scRNA_DANN	specificity			
+HSC_XAI	IG_Jaccard_top100_mean			
+HSC_XAI	DeepLIFT_Jaccard_top100_mean			
+HSC_XAI	Saliency_Jaccard_top100_mean			
+HSC_XAI	core_genes_frequency_ge_90			
+HSC_XAI	high_confidence_genes_frequency_ge_80			
+HSC_XAI	medium_confidence_genes_frequency_ge_60			
+HSC_XAI	XAI_core_Jaccard			
+HSC_XAI	XAI_high_confidence_Jaccard			
+HSC_XAI	XAI_medium_confidence_Jaccard			
+HSC_XAI	DE_top3000_Jaccard			
+HSC_XAI	XAI_vs_DE_shared_enrichment_OR			
+HSC_XAI	XAI_vs_DE_shared_enrichment_P			
+
