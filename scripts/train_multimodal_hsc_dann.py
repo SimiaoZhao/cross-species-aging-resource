@@ -1,7 +1,7 @@
 """Train and evaluate a multimodal HSC RNA+ATAC DANN model.
 
-The script uses the prepared multimodal arrays generated from the original HSC
-RNA and ATAC notebooks. Features are split by the `RNA_` and `ATAC_` prefixes,
+The script uses the prepared multimodal arrays generated from the source HSC
+RNA and ATAC preprocessing workflow. Features are split by the `RNA_` and `ATAC_` prefixes,
 encoded through separate branches, fused, and trained with an age classifier
 plus a gradient-reversal domain classifier.
 """

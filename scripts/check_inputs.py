@@ -1,4 +1,4 @@
-"""Check whether required data/model inputs are present before rerunning notebooks."""
+"""Check whether required data/model inputs are present before rerunning analyses."""
 
 from __future__ import annotations
 
